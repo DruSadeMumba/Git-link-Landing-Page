@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A700" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A500%2C600%2C700" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins%3A500%2C600" />
+    <link rel="stylesheet" href="landing-page.css">
+    <link rel="icon" href="git-link.png" type="image/png">
+    <title>Git-Link</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="hamburger-menu">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="http://git-link.drusade.tech/">Getting started</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+      </nav>
+    <div class="container">
+        <div class="content-left">
+            <div class="icon">
+                <img src="icon.png" alt="Page Icon" class="icon">
+                <h1>Git-Link</h1>
+            </div>
+         
+        </div>
+        <div class="content-right">
+            <div class="content">
+                <h1>Providing real-time GitHub statistics for user accounts</h1>
+                    <br>
+                <p>
+                    Welcome to Git-Link! Gain instant insights into your GitHub statistics with our intuitive platform.
+                    <br>
+                    Easily search for GitHub information, connect with your network, and share your achievements with friends.
+                    Whether you're a seasoned developer or just getting started, Git-Link offers a seamless experience for tracking your progress and engaging with the GitHub community.
+                    
+                </p>
+                <div class="join-us">
+                    <p>Join us today and take control of your coding journey!</p>
+                    <button class="get-started">Getting started</button>
+                  </div>
+            </div>
+            <img src="user-activity.jpeg" alt="User Activity" class="user-activity">
+        </div>
+        <div id="about" class="about-section">
+            <div class="about-content">
+                <h2>About Git-Link</h2>
+                <p>
+                    Git-Link was inspired by our desire to provide a platform for developers to easily track their GitHub statistics and engage with the GitHub community. 
+                    We started this project in 2024 as a Portfolio Project for <a href="https://www.holbertonschool.com/">Holberton School</a>.
+                </p>
+                <h3>Project Repository</h3>
+                <p>
+                    You can find the GitHub repository for this project <a href="https://github.com/DruSadeMumba/git-link.git">here</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelector('.hamburger-menu').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('show');
+        });
+    </script>
+</body>
+</html>
