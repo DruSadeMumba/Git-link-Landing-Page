@@ -70,7 +70,9 @@ body  {
     margin-top: 20px;
     font-size: 20px;
 }
-
+.join-us a {
+    text-decoration: none;
+}
 .get-started {
     background-color: #00C2FF;
     margin-top: 20px;
